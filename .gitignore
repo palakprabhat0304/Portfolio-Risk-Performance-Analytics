@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated analysis outputs
+outputs/*.csv
+outputs/*.png
+outputs/*.xlsx
+outputs/*.pptx
+outputs/*.md
+
+# Keep selected project documentation/examples tracked explicitly if desired.
+!outputs/EXECUTIVE_SUMMARY.md
+!outputs/PORTFOLIO_RECOMMENDATION.md
+!outputs/METHODOLOGY.md
+!outputs/INTERVIEW_GUIDE.md
+!outputs/QA_REPORT.md
+
+# Local logs
+*.log
