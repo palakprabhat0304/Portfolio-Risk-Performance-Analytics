@@ -8,10 +8,10 @@
 - Source in this package: synthetic demonstration dataset
 
 ## Performance
-Annualized return uses geometric compounding. Volatility uses sample standard deviation multiplied by √252.
+The headline **annualized return is geometric (CAGR)**. Volatility is the sample standard deviation × √252. Sharpe, Sortino and Jensen alpha use the **arithmetic** mean daily return × 252 as the return input, so they differ slightly from a Sharpe computed on the geometric headline return.
 
 ## Risk
-- Sharpe = (annualized return − 6.0%) / annualized volatility
+- Sharpe = (arithmetic mean daily return × 252 − 6.0%) / annualized volatility
 - Sortino uses the daily risk-free target as the downside threshold.
 - Historical VaR uses the 5th percentile of daily returns.
 - Expected Shortfall averages returns below that VaR threshold.

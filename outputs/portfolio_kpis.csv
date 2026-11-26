@@ -1,0 +1,14 @@
+Metric,Value
+Start Date,2022-01-03
+End Date,2025-12-31
+Trading Days,1042
+Annual Return,-0.038126842703748554
+Annual Volatility,0.17214539111396757
+Sharpe Ratio,-0.48829165784819706
+Sortino Ratio,-0.6677130182089882
+Maximum Drawdown,-0.42225605046698156
+Historical VaR 95% (Daily),0.018282420332081575
+Expected Shortfall 95% (Daily),0.022865005020597122
+Beta,0.7284346916261418
+Jensen Alpha,-0.018062604183738423
+Benchmark Correlation,0.9562274862458011

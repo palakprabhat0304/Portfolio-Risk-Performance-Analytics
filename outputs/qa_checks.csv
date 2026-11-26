@@ -1,0 +1,11 @@
+Check,Status,Detail
+Required columns,PASS,All configured assets and benchmark are present.
+Duplicate dates,PASS,No duplicate dates after loading.
+Positive prices,PASS,All retained price observations are positive.
+Current weights sum to 100%,PASS,Sum = 1.000000
+Practical weights sum to 100%,PASS,Sum = 1.000000
+Practical max weight <= 30%,PASS,Max = 30.0000%
+No missing returns,PASS,Return matrix contains no missing values after preprocessing.
+Risk contributions reconcile,PASS,Sum of component risk contributions equals portfolio volatility.
+Optimization weights reconcile,PASS,Current/min-vol/max-Sharpe weight columns each sum to 100%.
+Required output files,PASS,Core deliverables are present.
